@@ -1,14 +1,16 @@
 package dev.bishal.MovieReview;
 
 import org.springframework.boot.SpringApplication;
+//import annotation
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-
 //rest api controller let the spring boot know that this is the main class and not just another class
 @RestController
+@EnableMongoRepositories
 public class MovieReviewApplication {
 
 	public static void main(String[] args) {

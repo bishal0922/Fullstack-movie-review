@@ -17,5 +17,5 @@ public class Review {
     @Id
     private Object id;
     private String body;
-    
+
 }

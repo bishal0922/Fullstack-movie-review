@@ -19,7 +19,7 @@ public class Movie {
     //this property is used to identify the unique document in the collection
     @Id
     private Object id;
-    private String imdbID;
+    private String imdbId;
     private String title;
     private String releaseDate;
     private String trailerLink;
